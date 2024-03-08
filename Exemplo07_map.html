@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Map</title>
+</head>
+<body>
+    <H1 id="h1-1">Manipulando o elemento HTML</H1>
+    <p id="conteudo"></p>
+    <script>
+        const frutas = new Map([
+            ['maçã: ', 4],
+            ['banana: ', 5],
+            ['laranja: ', 6]
+        ]);
+
+        let texto = '';
+        for(const i of frutas.entries()){
+            texto += i + '<br>';
+        }
+        document.getElementById('conteudo').innerHTML = texto;
+
+    </script>
+</body>
+</html>

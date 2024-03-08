@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loop for in</title>
+</head>
+<body>
+    <h1>Exemplo de for in</h1>
+    <h2>O loop do for in é ultilizado para iterar as propriedades do objeto!
+    </h2>
+
+    <script>
+        const pessoas =  {
+            nome: 'José',
+            sobrenome: 'Silva',
+            idade: 20,
+        };
+
+        let texto = '';
+        for(let i in pessoas){
+            texto += pessoas[i];
+            console.log('Nome: ' + pessoas.nome + 
+                        'sobrenome: ' + pessoas.sobrenome + "\n"+
+                        'Idade: ' + pessoas.idade);
+        }
+
+    </script>
+
+
+</body>
+</html>
