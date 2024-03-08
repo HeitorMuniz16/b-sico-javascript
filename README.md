@@ -1,2 +1,2 @@
-# b-sico-javascript
+# básico-javascript
 básico de javascript
